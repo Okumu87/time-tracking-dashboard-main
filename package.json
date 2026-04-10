@@ -1,0 +1,11 @@
+{
+  "name": "time-tracking-dashboard",
+  "version": "1.0.0",
+  "description": "Time tracking dashboard challenge from Frontend Mentor",
+  "main": "index.html",
+  "scripts": {},
+  "devDependencies": {},
+  "keywords": ["frontend", "mentor", "dashboard", "time-tracking"],
+  "author": "",
+  "license": "MIT"
+}
