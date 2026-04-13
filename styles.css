@@ -259,4 +259,51 @@ button {
   .activities{
     grid-template-columns: 1fr;
   }
+
+  /* profile   */
+
+  .profile{
+    grid-row: 1 / span 1;
+    width: 100%;
+    max-width: 400px;
+
+    .profile__details{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1.5rem;
+
+      img{
+        margin: 0 1.5rem 0 0;
+      }
+    }
+
+    .profile__nav{
+      ul{
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    }
+  }
+
+  /* activity   */
+
+  .activity{
+    .activity__header{
+      flex-direction: column;
+      align-items: flex-start;
+      gap: .5rem;
+    }
+
+    .activity__body{
+      align-items: center;
+    }
+
+    .activity__body{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 4rem; 
+    }
+  }
 }
