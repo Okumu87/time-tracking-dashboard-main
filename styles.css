@@ -257,6 +257,7 @@ button {
 
 @media (max-width: 955px) {
   .activities{
+    margin: 2rem 0;
     grid-template-columns: 1fr;
   }
 
