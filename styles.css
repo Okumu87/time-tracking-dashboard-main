@@ -242,6 +242,9 @@ button {
 
   }
 
+
+  
+
 /* attributions */
 
 .attribution {
@@ -291,7 +294,7 @@ button {
 
   .activity{
     .activity__header{
-      flex-direction: column;
+      flex-direction: row;
       align-items: flex-start;
       gap: .5rem;
     }
@@ -306,5 +309,10 @@ button {
       align-items: center;
       gap: 4rem; 
     }
-  }
+
+
+
+  
+}
+
 }

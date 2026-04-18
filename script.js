@@ -19,7 +19,9 @@ const navButtons = document.querySelectorAll('.nav-btn');
 navButtons.forEach(button => {
   button.addEventListener('click', () => {
     // Remove active class from all buttons
-    navButtons.forEach(btn => btn.classList.remove('active'));
+    navButtons.forEach(btn => {
+      btn.classList.remove('active');
+    });
     // Add active class to clicked button
     button.classList.add('active');
     
