@@ -7,8 +7,8 @@ fetch('data.json')
   .then(data => {
     activityData = data;
     console.log('Data loaded:', data);
-    // Initialize with weekly data (default)
-    updateCards('weekly');
+    // Initialize with daily data (default)
+    updateCards('daily');
   })
   .catch(error => console.error('Error loading data:', error));
 
